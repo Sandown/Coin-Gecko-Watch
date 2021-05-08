@@ -16,9 +16,6 @@ import tkinter.tix as tix
 from datetime import datetime
 from pycoingecko import CoinGeckoAPI
 from requests.exceptions import HTTPError
-import matplotlib
-matplotlib.use("TkAgg")
-from matplotlib.figure import Figure
 
 # set the status and image directory
 status = ""
@@ -145,7 +142,7 @@ Leveraging PYcoingecko Powered by CoinGecko API.
     
     
 Sources:
-Coin Gecko Watch: 
+Coin Gecko Watch: https://github.com/Sandown/Coin-Gecko-Watch
 Pycoingecko: https://github.com/man-c/pycoingecko
 Coin Gecko API: https://www.coingecko.com/en/api
 

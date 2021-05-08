@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['coin_gecko_watch.pyw'],
+a = Analysis(['Coin_Gecko_Watch.pyw'],
              pathex=['C:\\Users\\Ryan\\source\\repos\\Coin Gecko Watch'],
              binaries=[],
              datas=[],
@@ -23,11 +23,11 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='coin_gecko_watch',
+          name='Coin_Gecko_Watch',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=False , icon='bulb.ico')
+          console=False )

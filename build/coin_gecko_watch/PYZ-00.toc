@@ -1,5 +1,5 @@
 ('C:\\Users\\Ryan\\source\\repos\\Coin Gecko '
- 'Watch\\build\\coin_gecko_watch\\PYZ-00.pyz',
+ 'Watch\\build\\Coin_Gecko_Watch\\PYZ-00.pyz',
  [('ssl',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\ssl.py',
@@ -44,21 +44,25 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\selectors.py',
    'PYMODULE'),
-  ('bz2',
+  ('typing',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\bz2.py',
+   'studio\\shared\\python37_64\\lib\\typing.py',
    'PYMODULE'),
-  ('_compression',
+  ('contextlib',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\_compression.py',
+   'studio\\shared\\python37_64\\lib\\contextlib.py',
    'PYMODULE'),
-  ('quopri',
+  ('tracemalloc',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\quopri.py',
+   'studio\\shared\\python37_64\\lib\\tracemalloc.py',
    'PYMODULE'),
-  ('stringprep',
+  ('pickle',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\stringprep.py',
+   'studio\\shared\\python37_64\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\pprint.py',
    'PYMODULE'),
   ('doctest',
    'c:\\program files (x86)\\microsoft visual '
@@ -71,30 +75,6 @@
   ('unittest.mock',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\unittest\\mock.py',
-   'PYMODULE'),
-  ('contextlib',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\contextlib.py',
-   'PYMODULE'),
-  ('pprint',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\pprint.py',
-   'PYMODULE'),
-  ('ntpath',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\ntpath.py',
-   'PYMODULE'),
-  ('string',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\string.py',
-   'PYMODULE'),
-  ('genericpath',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\genericpath.py',
-   'PYMODULE'),
-  ('stat',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\stat.py',
    'PYMODULE'),
   ('unittest.signals',
    'c:\\program files (x86)\\microsoft visual '
@@ -116,14 +96,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\unittest\\loader.py',
    'PYMODULE'),
-  ('fnmatch',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\fnmatch.py',
-   'PYMODULE'),
-  ('posixpath',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\posixpath.py',
-   'PYMODULE'),
   ('unittest.suite',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\unittest\\suite.py',
@@ -136,13 +108,9 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\logging\\__init__.py',
    'PYMODULE'),
-  ('pickle',
+  ('string',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\pickle.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\_compat_pickle.py',
+   'studio\\shared\\python37_64\\lib\\string.py',
    'PYMODULE'),
   ('unittest.result',
    'c:\\program files (x86)\\microsoft visual '
@@ -184,9 +152,21 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\gzip.py',
    'PYMODULE'),
+  ('_compression',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\_compression.py',
+   'PYMODULE'),
   ('lzma',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\bz2.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\stat.py',
    'PYMODULE'),
   ('email.message',
    'c:\\program files (x86)\\microsoft visual '
@@ -284,6 +264,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\email\\feedparser.py',
    'PYMODULE'),
+  ('quopri',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\quopri.py',
+   'PYMODULE'),
   ('uu',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\uu.py',
@@ -303,6 +287,14 @@
   ('socketserver',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\genericpath.py',
    'PYMODULE'),
   ('mimetypes',
    'c:\\program files (x86)\\microsoft visual '
@@ -524,17 +516,25 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\__future__.py',
    'PYMODULE'),
-  ('tracemalloc',
+  ('_compat_pickle',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\tracemalloc.py',
+   'studio\\shared\\python37_64\\lib\\_compat_pickle.py',
    'PYMODULE'),
-  ('typing',
+  ('ntpath',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\typing.py',
+   'studio\\shared\\python37_64\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\fnmatch.py',
    'PYMODULE'),
   ('_py_abc',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\stringprep.py',
    'PYMODULE'),
   ('requests.exceptions',
    'c:\\program files (x86)\\microsoft visual '
